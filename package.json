@@ -1,0 +1,41 @@
+{
+  "name": "midark-vscode-theme",
+  "displayName": "MiDark",
+  "description": "\"MiDark\" is a dark theme with unobtrusive turquoise shades for Visual Studio Code.",
+  "version": "1.0.0",
+  "publisher": "MiDeev",
+  "icon": "screenshots/theme_icon_128.png",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MiDeev/midark-vscode-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "coder theme",
+    "midark",
+    "night theme",
+    "mideev theme",
+    "blue theme",
+    "gray theme",
+    "vs code",
+    "mideev",
+    "green theme",
+    "turquoise theme"
+  ],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MiDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MiDark-color-theme.json"
+      }
+    ]
+  }
+}
